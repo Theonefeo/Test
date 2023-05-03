@@ -1,0 +1,28 @@
+2023-05-03 12:17:56.573  INFO 133326 --- [main] demo.SberTest.DemoApplication            : Starting DemoApplication v0.0.1-SNAPSHOT using Java 11.0.18 on feodorPC with PID 133326 (/home/feodor/LinuxProgramming/workspaceEclipse-Java/SberTestFinal/SberTest/target/SberTest-0.0.1-SNAPSHOT.jar started by feodor in /home/feodor/LinuxProgramming/workspaceEclipse-Java/SberTestFinal/SberTest)
+2023-05-03 12:17:56.576  INFO 133326 --- [main] demo.SberTest.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-03 12:17:57.623  INFO 133326 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 12:17:57.667  INFO 133326 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-05-03 12:17:58.303  INFO 133326 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 12:17:58.321  INFO 133326 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 12:17:58.322  INFO 133326 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-03 12:17:58.395  INFO 133326 --- [main] o.a.c.c.C.[.[localhost].[/core-api]      : Initializing Spring embedded WebApplicationContext
+2023-05-03 12:17:58.396  INFO 133326 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
+2023-05-03 12:17:58.751  INFO 133326 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 12:17:58.810  INFO 133326 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-05-03 12:17:59.005  INFO 133326 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 12:17:59.114  INFO 133326 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 12:17:59.349  INFO 133326 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 12:17:59.367  INFO 133326 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2023-05-03 12:17:59.983  INFO 133326 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 12:17:59.992  INFO 133326 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 12:18:00.381  WARN 133326 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 12:18:01.552  INFO 133326 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-03 12:18:01.592  INFO 133326 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/core-api'
+2023-05-03 12:18:01.610  INFO 133326 --- [main] demo.SberTest.DemoApplication            : Started DemoApplication in 5.546 seconds (JVM running for 5.97)
+2023-05-03 12:18:04.909  INFO 133326 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/core-api]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 12:18:04.910  INFO 133326 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 12:18:04.911  INFO 133326 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-03 12:22:36.001  INFO 133326 --- [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 215 ms
+2023-05-03 12:22:45.304  INFO 133326 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 12:22:45.308  INFO 133326 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03 12:22:45.327  INFO 133326 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
